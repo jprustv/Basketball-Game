@@ -1,4 +1,4 @@
-######################## Unity3D + OpenCVSharp Game ##########################
+### Unity3D + OpenCVSharp Game ####
 
 ### Synopsis ####
 This is an in-development Basketball game, where the player will be able to play by gestures.
