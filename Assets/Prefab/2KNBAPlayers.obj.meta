@@ -1,0 +1,1525 @@
+fileFormatVersion: 2
+guid: c7e71f8eb39f31d498f89a43df0de5b8
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DrawCall_3024
+    100004: DrawCall_3025
+    100006: DrawCall_3026
+    100008: DrawCall_3027
+    100010: DrawCall_3028
+    100012: DrawCall_3029
+    100014: DrawCall_3030
+    100016: DrawCall_3031
+    100018: DrawCall_3032
+    100020: DrawCall_3033
+    100022: DrawCall_3034
+    100024: DrawCall_3035
+    100026: DrawCall_3036
+    100028: DrawCall_3037
+    100030: DrawCall_3038
+    100032: DrawCall_3039
+    100034: DrawCall_3040
+    100036: DrawCall_3041
+    100038: DrawCall_3042
+    100040: DrawCall_3043
+    100042: DrawCall_3044
+    100044: DrawCall_3045
+    100046: DrawCall_3046
+    100048: DrawCall_3047
+    100050: DrawCall_3048
+    100052: DrawCall_3049
+    100054: DrawCall_3050
+    100056: DrawCall_3051
+    100058: DrawCall_3052
+    100060: DrawCall_3053
+    100062: DrawCall_3054
+    100064: DrawCall_3055
+    100066: DrawCall_3056
+    100068: DrawCall_3057
+    100070: DrawCall_3058
+    100072: DrawCall_3059
+    100074: DrawCall_3060
+    100076: DrawCall_3061
+    100078: DrawCall_3062
+    100080: DrawCall_3063
+    100082: DrawCall_3064
+    100084: DrawCall_3065
+    100086: DrawCall_3066
+    100088: DrawCall_3067
+    100090: DrawCall_3068
+    100092: DrawCall_3069
+    100094: DrawCall_3070
+    100096: DrawCall_3071
+    100098: DrawCall_3072
+    100100: DrawCall_3073
+    100102: DrawCall_3074
+    100104: DrawCall_3075
+    100106: DrawCall_3076
+    100108: DrawCall_3077
+    100110: DrawCall_3078
+    100112: DrawCall_3079
+    100114: DrawCall_3080
+    100116: DrawCall_3081
+    100118: DrawCall_3121
+    100120: DrawCall_3122
+    100122: DrawCall_3123
+    100124: DrawCall_3124
+    100126: DrawCall_3125
+    100128: DrawCall_3126
+    100130: DrawCall_3127
+    100132: DrawCall_3128
+    100134: DrawCall_3129
+    100136: DrawCall_3130
+    100138: DrawCall_3131
+    100140: DrawCall_3132
+    100142: DrawCall_3133
+    100144: DrawCall_3134
+    100146: DrawCall_3135
+    100148: DrawCall_3136
+    100150: DrawCall_3137
+    100152: DrawCall_3138
+    100154: DrawCall_3139
+    100156: DrawCall_3140
+    100158: DrawCall_3160
+    100160: DrawCall_3161
+    100162: DrawCall_3162
+    100164: DrawCall_3163
+    100166: DrawCall_3164
+    100168: DrawCall_3165
+    100170: DrawCall_3166
+    100172: DrawCall_3167
+    100174: DrawCall_3168
+    100176: DrawCall_3169
+    100178: DrawCall_3170
+    100180: DrawCall_3171
+    100182: DrawCall_3172
+    100184: DrawCall_3173
+    100186: DrawCall_3174
+    100188: DrawCall_3175
+    100190: DrawCall_3176
+    100192: DrawCall_3177
+    100194: DrawCall_3178
+    100196: DrawCall_3179
+    100198: DrawCall_3272
+    100200: DrawCall_3273
+    100202: DrawCall_3274
+    100204: DrawCall_3275
+    100206: DrawCall_3276
+    100208: DrawCall_3277
+    100210: DrawCall_3278
+    100212: DrawCall_3279
+    100214: DrawCall_3280
+    100216: DrawCall_3281
+    100218: DrawCall_3291
+    100220: DrawCall_3292
+    100222: DrawCall_3293
+    100224: DrawCall_3294
+    100226: DrawCall_3295
+    100228: DrawCall_3296
+    100230: DrawCall_3297
+    100232: DrawCall_3298
+    100234: DrawCall_3299
+    100236: DrawCall_3300
+    100238: DrawCall_3322
+    100240: DrawCall_3323
+    100242: DrawCall_3324
+    100244: DrawCall_3325
+    100246: DrawCall_3326
+    100248: DrawCall_3327
+    100250: DrawCall_3328
+    100252: DrawCall_3329
+    100254: DrawCall_3330
+    100256: DrawCall_3331
+    100258: DrawCall_3332
+    100260: DrawCall_3333
+    100262: DrawCall_3334
+    100264: DrawCall_3335
+    100266: DrawCall_3336
+    100268: DrawCall_3337
+    100270: DrawCall_3338
+    100272: DrawCall_3339
+    100274: DrawCall_3340
+    100276: DrawCall_3343
+    100278: DrawCall_3344
+    100280: DrawCall_3345
+    100282: DrawCall_3346
+    100284: DrawCall_3347
+    100286: DrawCall_3348
+    100288: DrawCall_3349
+    100290: DrawCall_3350
+    100292: DrawCall_3351
+    400000: //RootNode
+    400002: DrawCall_3024
+    400004: DrawCall_3025
+    400006: DrawCall_3026
+    400008: DrawCall_3027
+    400010: DrawCall_3028
+    400012: DrawCall_3029
+    400014: DrawCall_3030
+    400016: DrawCall_3031
+    400018: DrawCall_3032
+    400020: DrawCall_3033
+    400022: DrawCall_3034
+    400024: DrawCall_3035
+    400026: DrawCall_3036
+    400028: DrawCall_3037
+    400030: DrawCall_3038
+    400032: DrawCall_3039
+    400034: DrawCall_3040
+    400036: DrawCall_3041
+    400038: DrawCall_3042
+    400040: DrawCall_3043
+    400042: DrawCall_3044
+    400044: DrawCall_3045
+    400046: DrawCall_3046
+    400048: DrawCall_3047
+    400050: DrawCall_3048
+    400052: DrawCall_3049
+    400054: DrawCall_3050
+    400056: DrawCall_3051
+    400058: DrawCall_3052
+    400060: DrawCall_3053
+    400062: DrawCall_3054
+    400064: DrawCall_3055
+    400066: DrawCall_3056
+    400068: DrawCall_3057
+    400070: DrawCall_3058
+    400072: DrawCall_3059
+    400074: DrawCall_3060
+    400076: DrawCall_3061
+    400078: DrawCall_3062
+    400080: DrawCall_3063
+    400082: DrawCall_3064
+    400084: DrawCall_3065
+    400086: DrawCall_3066
+    400088: DrawCall_3067
+    400090: DrawCall_3068
+    400092: DrawCall_3069
+    400094: DrawCall_3070
+    400096: DrawCall_3071
+    400098: DrawCall_3072
+    400100: DrawCall_3073
+    400102: DrawCall_3074
+    400104: DrawCall_3075
+    400106: DrawCall_3076
+    400108: DrawCall_3077
+    400110: DrawCall_3078
+    400112: DrawCall_3079
+    400114: DrawCall_3080
+    400116: DrawCall_3081
+    400118: DrawCall_3121
+    400120: DrawCall_3122
+    400122: DrawCall_3123
+    400124: DrawCall_3124
+    400126: DrawCall_3125
+    400128: DrawCall_3126
+    400130: DrawCall_3127
+    400132: DrawCall_3128
+    400134: DrawCall_3129
+    400136: DrawCall_3130
+    400138: DrawCall_3131
+    400140: DrawCall_3132
+    400142: DrawCall_3133
+    400144: DrawCall_3134
+    400146: DrawCall_3135
+    400148: DrawCall_3136
+    400150: DrawCall_3137
+    400152: DrawCall_3138
+    400154: DrawCall_3139
+    400156: DrawCall_3140
+    400158: DrawCall_3160
+    400160: DrawCall_3161
+    400162: DrawCall_3162
+    400164: DrawCall_3163
+    400166: DrawCall_3164
+    400168: DrawCall_3165
+    400170: DrawCall_3166
+    400172: DrawCall_3167
+    400174: DrawCall_3168
+    400176: DrawCall_3169
+    400178: DrawCall_3170
+    400180: DrawCall_3171
+    400182: DrawCall_3172
+    400184: DrawCall_3173
+    400186: DrawCall_3174
+    400188: DrawCall_3175
+    400190: DrawCall_3176
+    400192: DrawCall_3177
+    400194: DrawCall_3178
+    400196: DrawCall_3179
+    400198: DrawCall_3272
+    400200: DrawCall_3273
+    400202: DrawCall_3274
+    400204: DrawCall_3275
+    400206: DrawCall_3276
+    400208: DrawCall_3277
+    400210: DrawCall_3278
+    400212: DrawCall_3279
+    400214: DrawCall_3280
+    400216: DrawCall_3281
+    400218: DrawCall_3291
+    400220: DrawCall_3292
+    400222: DrawCall_3293
+    400224: DrawCall_3294
+    400226: DrawCall_3295
+    400228: DrawCall_3296
+    400230: DrawCall_3297
+    400232: DrawCall_3298
+    400234: DrawCall_3299
+    400236: DrawCall_3300
+    400238: DrawCall_3322
+    400240: DrawCall_3323
+    400242: DrawCall_3324
+    400244: DrawCall_3325
+    400246: DrawCall_3326
+    400248: DrawCall_3327
+    400250: DrawCall_3328
+    400252: DrawCall_3329
+    400254: DrawCall_3330
+    400256: DrawCall_3331
+    400258: DrawCall_3332
+    400260: DrawCall_3333
+    400262: DrawCall_3334
+    400264: DrawCall_3335
+    400266: DrawCall_3336
+    400268: DrawCall_3337
+    400270: DrawCall_3338
+    400272: DrawCall_3339
+    400274: DrawCall_3340
+    400276: DrawCall_3343
+    400278: DrawCall_3344
+    400280: DrawCall_3345
+    400282: DrawCall_3346
+    400284: DrawCall_3347
+    400286: DrawCall_3348
+    400288: DrawCall_3349
+    400290: DrawCall_3350
+    400292: DrawCall_3351
+    2300000: DrawCall_3024
+    2300002: DrawCall_3025
+    2300004: DrawCall_3026
+    2300006: DrawCall_3027
+    2300008: DrawCall_3028
+    2300010: DrawCall_3029
+    2300012: DrawCall_3030
+    2300014: DrawCall_3031
+    2300016: DrawCall_3032
+    2300018: DrawCall_3033
+    2300020: DrawCall_3034
+    2300022: DrawCall_3035
+    2300024: DrawCall_3036
+    2300026: DrawCall_3037
+    2300028: DrawCall_3038
+    2300030: DrawCall_3039
+    2300032: DrawCall_3040
+    2300034: DrawCall_3041
+    2300036: DrawCall_3042
+    2300038: DrawCall_3043
+    2300040: DrawCall_3044
+    2300042: DrawCall_3045
+    2300044: DrawCall_3046
+    2300046: DrawCall_3047
+    2300048: DrawCall_3048
+    2300050: DrawCall_3049
+    2300052: DrawCall_3050
+    2300054: DrawCall_3051
+    2300056: DrawCall_3052
+    2300058: DrawCall_3053
+    2300060: DrawCall_3054
+    2300062: DrawCall_3055
+    2300064: DrawCall_3056
+    2300066: DrawCall_3057
+    2300068: DrawCall_3058
+    2300070: DrawCall_3059
+    2300072: DrawCall_3060
+    2300074: DrawCall_3061
+    2300076: DrawCall_3062
+    2300078: DrawCall_3063
+    2300080: DrawCall_3064
+    2300082: DrawCall_3065
+    2300084: DrawCall_3066
+    2300086: DrawCall_3067
+    2300088: DrawCall_3068
+    2300090: DrawCall_3069
+    2300092: DrawCall_3070
+    2300094: DrawCall_3071
+    2300096: DrawCall_3072
+    2300098: DrawCall_3073
+    2300100: DrawCall_3074
+    2300102: DrawCall_3075
+    2300104: DrawCall_3076
+    2300106: DrawCall_3077
+    2300108: DrawCall_3078
+    2300110: DrawCall_3079
+    2300112: DrawCall_3080
+    2300114: DrawCall_3081
+    2300116: DrawCall_3121
+    2300118: DrawCall_3122
+    2300120: DrawCall_3123
+    2300122: DrawCall_3124
+    2300124: DrawCall_3125
+    2300126: DrawCall_3126
+    2300128: DrawCall_3127
+    2300130: DrawCall_3128
+    2300132: DrawCall_3129
+    2300134: DrawCall_3130
+    2300136: DrawCall_3131
+    2300138: DrawCall_3132
+    2300140: DrawCall_3133
+    2300142: DrawCall_3134
+    2300144: DrawCall_3135
+    2300146: DrawCall_3136
+    2300148: DrawCall_3137
+    2300150: DrawCall_3138
+    2300152: DrawCall_3139
+    2300154: DrawCall_3140
+    2300156: DrawCall_3160
+    2300158: DrawCall_3161
+    2300160: DrawCall_3162
+    2300162: DrawCall_3163
+    2300164: DrawCall_3164
+    2300166: DrawCall_3165
+    2300168: DrawCall_3166
+    2300170: DrawCall_3167
+    2300172: DrawCall_3168
+    2300174: DrawCall_3169
+    2300176: DrawCall_3170
+    2300178: DrawCall_3171
+    2300180: DrawCall_3172
+    2300182: DrawCall_3173
+    2300184: DrawCall_3174
+    2300186: DrawCall_3175
+    2300188: DrawCall_3176
+    2300190: DrawCall_3177
+    2300192: DrawCall_3178
+    2300194: DrawCall_3179
+    2300196: DrawCall_3272
+    2300198: DrawCall_3273
+    2300200: DrawCall_3274
+    2300202: DrawCall_3275
+    2300204: DrawCall_3276
+    2300206: DrawCall_3277
+    2300208: DrawCall_3278
+    2300210: DrawCall_3279
+    2300212: DrawCall_3280
+    2300214: DrawCall_3281
+    2300216: DrawCall_3291
+    2300218: DrawCall_3292
+    2300220: DrawCall_3293
+    2300222: DrawCall_3294
+    2300224: DrawCall_3295
+    2300226: DrawCall_3296
+    2300228: DrawCall_3297
+    2300230: DrawCall_3298
+    2300232: DrawCall_3299
+    2300234: DrawCall_3300
+    2300236: DrawCall_3322
+    2300238: DrawCall_3323
+    2300240: DrawCall_3324
+    2300242: DrawCall_3325
+    2300244: DrawCall_3326
+    2300246: DrawCall_3327
+    2300248: DrawCall_3328
+    2300250: DrawCall_3329
+    2300252: DrawCall_3330
+    2300254: DrawCall_3331
+    2300256: DrawCall_3332
+    2300258: DrawCall_3333
+    2300260: DrawCall_3334
+    2300262: DrawCall_3335
+    2300264: DrawCall_3336
+    2300266: DrawCall_3337
+    2300268: DrawCall_3338
+    2300270: DrawCall_3339
+    2300272: DrawCall_3340
+    2300274: DrawCall_3343
+    2300276: DrawCall_3344
+    2300278: DrawCall_3345
+    2300280: DrawCall_3346
+    2300282: DrawCall_3347
+    2300284: DrawCall_3348
+    2300286: DrawCall_3349
+    2300288: DrawCall_3350
+    2300290: DrawCall_3351
+    3300000: DrawCall_3024
+    3300002: DrawCall_3025
+    3300004: DrawCall_3026
+    3300006: DrawCall_3027
+    3300008: DrawCall_3028
+    3300010: DrawCall_3029
+    3300012: DrawCall_3030
+    3300014: DrawCall_3031
+    3300016: DrawCall_3032
+    3300018: DrawCall_3033
+    3300020: DrawCall_3034
+    3300022: DrawCall_3035
+    3300024: DrawCall_3036
+    3300026: DrawCall_3037
+    3300028: DrawCall_3038
+    3300030: DrawCall_3039
+    3300032: DrawCall_3040
+    3300034: DrawCall_3041
+    3300036: DrawCall_3042
+    3300038: DrawCall_3043
+    3300040: DrawCall_3044
+    3300042: DrawCall_3045
+    3300044: DrawCall_3046
+    3300046: DrawCall_3047
+    3300048: DrawCall_3048
+    3300050: DrawCall_3049
+    3300052: DrawCall_3050
+    3300054: DrawCall_3051
+    3300056: DrawCall_3052
+    3300058: DrawCall_3053
+    3300060: DrawCall_3054
+    3300062: DrawCall_3055
+    3300064: DrawCall_3056
+    3300066: DrawCall_3057
+    3300068: DrawCall_3058
+    3300070: DrawCall_3059
+    3300072: DrawCall_3060
+    3300074: DrawCall_3061
+    3300076: DrawCall_3062
+    3300078: DrawCall_3063
+    3300080: DrawCall_3064
+    3300082: DrawCall_3065
+    3300084: DrawCall_3066
+    3300086: DrawCall_3067
+    3300088: DrawCall_3068
+    3300090: DrawCall_3069
+    3300092: DrawCall_3070
+    3300094: DrawCall_3071
+    3300096: DrawCall_3072
+    3300098: DrawCall_3073
+    3300100: DrawCall_3074
+    3300102: DrawCall_3075
+    3300104: DrawCall_3076
+    3300106: DrawCall_3077
+    3300108: DrawCall_3078
+    3300110: DrawCall_3079
+    3300112: DrawCall_3080
+    3300114: DrawCall_3081
+    3300116: DrawCall_3121
+    3300118: DrawCall_3122
+    3300120: DrawCall_3123
+    3300122: DrawCall_3124
+    3300124: DrawCall_3125
+    3300126: DrawCall_3126
+    3300128: DrawCall_3127
+    3300130: DrawCall_3128
+    3300132: DrawCall_3129
+    3300134: DrawCall_3130
+    3300136: DrawCall_3131
+    3300138: DrawCall_3132
+    3300140: DrawCall_3133
+    3300142: DrawCall_3134
+    3300144: DrawCall_3135
+    3300146: DrawCall_3136
+    3300148: DrawCall_3137
+    3300150: DrawCall_3138
+    3300152: DrawCall_3139
+    3300154: DrawCall_3140
+    3300156: DrawCall_3160
+    3300158: DrawCall_3161
+    3300160: DrawCall_3162
+    3300162: DrawCall_3163
+    3300164: DrawCall_3164
+    3300166: DrawCall_3165
+    3300168: DrawCall_3166
+    3300170: DrawCall_3167
+    3300172: DrawCall_3168
+    3300174: DrawCall_3169
+    3300176: DrawCall_3170
+    3300178: DrawCall_3171
+    3300180: DrawCall_3172
+    3300182: DrawCall_3173
+    3300184: DrawCall_3174
+    3300186: DrawCall_3175
+    3300188: DrawCall_3176
+    3300190: DrawCall_3177
+    3300192: DrawCall_3178
+    3300194: DrawCall_3179
+    3300196: DrawCall_3272
+    3300198: DrawCall_3273
+    3300200: DrawCall_3274
+    3300202: DrawCall_3275
+    3300204: DrawCall_3276
+    3300206: DrawCall_3277
+    3300208: DrawCall_3278
+    3300210: DrawCall_3279
+    3300212: DrawCall_3280
+    3300214: DrawCall_3281
+    3300216: DrawCall_3291
+    3300218: DrawCall_3292
+    3300220: DrawCall_3293
+    3300222: DrawCall_3294
+    3300224: DrawCall_3295
+    3300226: DrawCall_3296
+    3300228: DrawCall_3297
+    3300230: DrawCall_3298
+    3300232: DrawCall_3299
+    3300234: DrawCall_3300
+    3300236: DrawCall_3322
+    3300238: DrawCall_3323
+    3300240: DrawCall_3324
+    3300242: DrawCall_3325
+    3300244: DrawCall_3326
+    3300246: DrawCall_3327
+    3300248: DrawCall_3328
+    3300250: DrawCall_3329
+    3300252: DrawCall_3330
+    3300254: DrawCall_3331
+    3300256: DrawCall_3332
+    3300258: DrawCall_3333
+    3300260: DrawCall_3334
+    3300262: DrawCall_3335
+    3300264: DrawCall_3336
+    3300266: DrawCall_3337
+    3300268: DrawCall_3338
+    3300270: DrawCall_3339
+    3300272: DrawCall_3340
+    3300274: DrawCall_3343
+    3300276: DrawCall_3344
+    3300278: DrawCall_3345
+    3300280: DrawCall_3346
+    3300282: DrawCall_3347
+    3300284: DrawCall_3348
+    3300286: DrawCall_3349
+    3300288: DrawCall_3350
+    3300290: DrawCall_3351
+    4300000: DrawCall_3024
+    4300002: DrawCall_3025
+    4300004: DrawCall_3026
+    4300006: DrawCall_3027
+    4300008: DrawCall_3028
+    4300010: DrawCall_3029
+    4300012: DrawCall_3030
+    4300014: DrawCall_3031
+    4300016: DrawCall_3032
+    4300018: DrawCall_3033
+    4300020: DrawCall_3034
+    4300022: DrawCall_3035
+    4300024: DrawCall_3036
+    4300026: DrawCall_3037
+    4300028: DrawCall_3038
+    4300030: DrawCall_3039
+    4300032: DrawCall_3040
+    4300034: DrawCall_3041
+    4300036: DrawCall_3042
+    4300038: DrawCall_3043
+    4300040: DrawCall_3044
+    4300042: DrawCall_3045
+    4300044: DrawCall_3046
+    4300046: DrawCall_3047
+    4300048: DrawCall_3048
+    4300050: DrawCall_3049
+    4300052: DrawCall_3050
+    4300054: DrawCall_3051
+    4300056: DrawCall_3052
+    4300058: DrawCall_3053
+    4300060: DrawCall_3054
+    4300062: DrawCall_3055
+    4300064: DrawCall_3056
+    4300066: DrawCall_3057
+    4300068: DrawCall_3058
+    4300070: DrawCall_3059
+    4300072: DrawCall_3060
+    4300074: DrawCall_3061
+    4300076: DrawCall_3062
+    4300078: DrawCall_3063
+    4300080: DrawCall_3064
+    4300082: DrawCall_3065
+    4300084: DrawCall_3066
+    4300086: DrawCall_3067
+    4300088: DrawCall_3068
+    4300090: DrawCall_3069
+    4300092: DrawCall_3070
+    4300094: DrawCall_3071
+    4300096: DrawCall_3072
+    4300098: DrawCall_3073
+    4300100: DrawCall_3074
+    4300102: DrawCall_3075
+    4300104: DrawCall_3076
+    4300106: DrawCall_3077
+    4300108: DrawCall_3078
+    4300110: DrawCall_3079
+    4300112: DrawCall_3080
+    4300114: DrawCall_3081
+    4300116: DrawCall_3121
+    4300118: DrawCall_3122
+    4300120: DrawCall_3123
+    4300122: DrawCall_3124
+    4300124: DrawCall_3125
+    4300126: DrawCall_3126
+    4300128: DrawCall_3127
+    4300130: DrawCall_3128
+    4300132: DrawCall_3129
+    4300134: DrawCall_3130
+    4300136: DrawCall_3131
+    4300138: DrawCall_3132
+    4300140: DrawCall_3133
+    4300142: DrawCall_3134
+    4300144: DrawCall_3135
+    4300146: DrawCall_3136
+    4300148: DrawCall_3137
+    4300150: DrawCall_3138
+    4300152: DrawCall_3139
+    4300154: DrawCall_3140
+    4300156: DrawCall_3160
+    4300158: DrawCall_3161
+    4300160: DrawCall_3162
+    4300162: DrawCall_3163
+    4300164: DrawCall_3164
+    4300166: DrawCall_3165
+    4300168: DrawCall_3166
+    4300170: DrawCall_3167
+    4300172: DrawCall_3168
+    4300174: DrawCall_3169
+    4300176: DrawCall_3170
+    4300178: DrawCall_3171
+    4300180: DrawCall_3172
+    4300182: DrawCall_3173
+    4300184: DrawCall_3174
+    4300186: DrawCall_3175
+    4300188: DrawCall_3176
+    4300190: DrawCall_3177
+    4300192: DrawCall_3178
+    4300194: DrawCall_3179
+    4300196: DrawCall_3272
+    4300198: DrawCall_3273
+    4300200: DrawCall_3274
+    4300202: DrawCall_3275
+    4300204: DrawCall_3276
+    4300206: DrawCall_3277
+    4300208: DrawCall_3278
+    4300210: DrawCall_3279
+    4300212: DrawCall_3280
+    4300214: DrawCall_3281
+    4300216: DrawCall_3291
+    4300218: DrawCall_3292
+    4300220: DrawCall_3293
+    4300222: DrawCall_3294
+    4300224: DrawCall_3295
+    4300226: DrawCall_3296
+    4300228: DrawCall_3297
+    4300230: DrawCall_3298
+    4300232: DrawCall_3299
+    4300234: DrawCall_3300
+    4300236: DrawCall_3322
+    4300238: DrawCall_3323
+    4300240: DrawCall_3324
+    4300242: DrawCall_3325
+    4300244: DrawCall_3326
+    4300246: DrawCall_3327
+    4300248: DrawCall_3328
+    4300250: DrawCall_3329
+    4300252: DrawCall_3330
+    4300254: DrawCall_3331
+    4300256: DrawCall_3332
+    4300258: DrawCall_3333
+    4300260: DrawCall_3334
+    4300262: DrawCall_3335
+    4300264: DrawCall_3336
+    4300266: DrawCall_3337
+    4300268: DrawCall_3338
+    4300270: DrawCall_3339
+    4300272: DrawCall_3340
+    4300274: DrawCall_3343
+    4300276: DrawCall_3344
+    4300278: DrawCall_3345
+    4300280: DrawCall_3346
+    4300282: DrawCall_3347
+    4300284: DrawCall_3348
+    4300286: DrawCall_3349
+    4300288: DrawCall_3350
+    4300290: DrawCall_3351
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton:
+    - name: 2KNBAPlayers(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3024
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3025
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3026
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3027
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3028
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3029
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3030
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3031
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3032
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3033
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3034
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3035
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3036
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3037
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3038
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3039
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3040
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3041
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3042
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3043
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3044
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3045
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3046
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3047
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3048
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3049
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3050
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3051
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3052
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3053
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3054
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3055
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3056
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3057
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3058
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3059
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3060
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3061
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3062
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3063
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3064
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3065
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3066
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3067
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3068
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3069
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3070
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3071
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3072
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3073
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3074
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3075
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3076
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3077
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3078
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3079
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3080
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3081
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3121
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3122
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3123
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3124
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3125
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3126
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3127
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3128
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3129
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3130
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3131
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3132
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3133
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3134
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3135
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3136
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3137
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3138
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3139
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3140
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3160
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3161
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3162
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3163
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3164
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3165
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3166
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3167
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3168
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3169
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3170
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3171
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3172
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3173
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3174
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3175
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3176
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3177
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3178
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3179
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3272
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3273
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3274
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3275
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3276
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3277
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3278
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3279
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3280
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3281
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3291
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3292
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3293
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3294
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3295
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3296
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3297
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3298
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3299
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3300
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3322
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3323
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3324
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3325
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3326
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3327
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3328
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3329
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3330
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3331
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3332
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3333
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3334
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3335
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3336
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3337
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3338
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3339
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3340
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3343
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3344
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3345
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3346
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3347
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3348
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3349
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3350
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DrawCall_3351
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  userData: 
