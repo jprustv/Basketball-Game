@@ -3,6 +3,7 @@ using System.Collections;
 using System;
 using System.IO;
 using OpenCvSharp;
+using System.Threading;
 
 //using OpenCvSharp.Extensions;
 //using System.Windows.Media;
@@ -17,18 +18,17 @@ public class CaptureScript : MonoBehaviour
 		public Texture2D texImage;
 		public string deviceName;
 		private int devId = 1;
-		private int imWidth = 160; // 640 -> 200 -> 160
-		private int imHeight = 120; // 480 -> 150 -> 120
-		private string errorMsg = "No errors found!";
+		public int imWidth = 160; // 640 -> 200 -> 160
+		public int imHeight = 120; // 480 -> 150 -> 120
+	//	private string errorMsg = "No errors found!";
 		static IplImage matrix;
-	int H_MIN = 0;
-	int H_MAX = 256;
-	int S_MIN = 0;
-	int S_MAX = 256;
-	int V_MIN = 0;
-	int V_MAX = 256;
-	const int MAX_NUM_OBJECTS=50;
-	const int MIN_OBJECT_AREA = 20*20;
+		const int MAX_NUM_OBJECTS=50;
+		const int MIN_OBJECT_AREA = 20*20;
+		public dete dete;
+		
+//	private Thread thread;
+//	public CvWindow BPWindow;
+//	private bool isReading;
 
 // Use this for initialization
 		void Start ()
@@ -51,8 +51,26 @@ public class CaptureScript : MonoBehaviour
 						webcamTexture.Play ();
 
 						matrix = new IplImage (imWidth, imHeight, BitDepth.U8, 3);
+
+						dete = new dete(matrix);
+						IplImage BP = dete.getBackProjectionImage();
+						new CvWindow ("BP",BP);
+				//		Thread thread = new Thread(new ThreadStart(OpenWindow));
+				//		thread.IsBackground=true;
+				//		thread.Start();
+					//	BPWindow.Start();
+
 				}
+		
 		}
+
+	/*	public void OpenWindow(){
+			Debug.Log ("Iniciando CvWindow...");
+	//		dete = new dete (matrix);
+	//		IplImage BP = dete.getBackProjectionImage();
+			BPWindow = new CvWindow ();
+			
+		}*/
 
 		void Update ()
 		{
@@ -60,8 +78,8 @@ public class CaptureScript : MonoBehaviour
 
 						Texture2DtoIplImage ();
 
-						CvFont font = new CvFont (FontFace.Vector0, 1.0, 1.0);
-						CvColor rcolor = CvColor.Random ();
+					//	CvFont font = new CvFont (FontFace.Vector0, 1.0, 1.0);
+					//	CvColor rcolor = CvColor.Random ();
 					//	Cv.PutText (matrix, "Snapshot taken!", new CvPoint (15, 30), font, rcolor);
 						IplImage cny = new IplImage (imWidth, imHeight, BitDepth.U8, 1);
 						matrix.CvtColor (cny, ColorConversion.RgbToGray); // Original
@@ -72,23 +90,46 @@ public class CaptureScript : MonoBehaviour
 						
 						Cv.Canny (cny, cny, 100, 100, ApertureSize.Size3); // Precisao? - Original e 50, 50
 
-						Cv.CvtColor(cny, matrix, ColorConversion.GrayToBgr); // Original - Colorido ou Tom de Cinza
+						//Cv.CvtColor(cny, matrix, ColorConversion.GrayToBgr); // Original - Colorido ou Tom de Cinza
 
+						
+						
+						dete = new dete(matrix);
+					//	IplImage HSV = dete.getHSVImage ();
+						IplImage BP = dete.getBackProjectionImage();
+					//	IplImage HULL = dete.getHullImage();
+					//	IplImage DEFECT = dete.getDefectImage();
+						new CvWindow("BP",BP);						
+					
 						if (webcamTexture.didUpdateThisFrame) {
 								IplImageToTexture2D ();
 						}
 
-
+				
+			
 				} else {
 						Debug.Log ("Can't find camera!");
 				}
+				
 		}
 
+		/*public void Stop()
+		{
+			if (thread != null)
+			{
+				thread.Abort();
+				thread = null;
+				this.isReading = false;
+				BPWindow.Close();
+				BPWindow = null;
+			}
+		}*/
+		
 		void OnGUI ()
 		{
-				GUI.Label (new Rect (10, 300, 100, 90), errorMsg);
+			//			GUI.Label (new Rect (10, 300, 100, 90), errorMsg);
 		}
-
+		
 		void IplImageToTexture2D ()
 		{
 				int jBackwards = imHeight;

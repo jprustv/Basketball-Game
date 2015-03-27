@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{69358168-059A-15C0-FF83-F5B4D94AD3DF}</ProjectGuid>
+	<ProjectGuid>{3E236E3F-E293-3526-7EAA-52FBE4A7E4CE}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -39,19 +39,25 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CaptureScript.cs" />
-     <Compile Include="Assets\Scripts\IK scripts by dogzer\IKLimb.cs" />
+     <Compile Include="Assets\Scripts\DetectaMao.cs" />
      <Compile Include="Assets\Scripts\IK\IKCCD2D.cs" />
      <Compile Include="Assets\Scripts\IK\IKControl.cs" />
      <Compile Include="Assets\Scripts\IK\IKSimple.cs" />
      <Compile Include="Assets\Scripts\IK\IKSolver.cs" />
+     <Compile Include="Assets\Scripts\IKLimb.cs" />
+     <Compile Include="Assets\Scripts\Parallel.cs" />
+     <Compile Include="Assets\Scripts\Systems\Basket.cs" />
+     <Compile Include="Assets\Scripts\Systems\Shoot.cs" />
+     <Compile Include="Assets\Scripts\VideoCaptureScript.cs" />
+     <Compile Include="Assets\Scripts\dete.cs" />
      <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
@@ -59,6 +65,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\IK\Readme.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
@@ -146,21 +153,21 @@
  <Reference Include="OpenCvSharp.MachineLearning">
  <HintPath>Assets\Plugins\OpenCvSharp.MachineLearning.dll</HintPath>
  </Reference>
- <Reference Include="OpenCvSharp.UserInterface">
- <HintPath>Assets\Plugins\OpenCvSharp.UserInterface.dll</HintPath>
- </Reference>
  <Reference Include="system.drawing">
  <HintPath>Assets\Plugins\system.drawing.dll</HintPath>
  </Reference>
  <Reference Include="VideoInputSharp">
  <HintPath>Assets\Plugins\VideoInputSharp.dll</HintPath>
  </Reference>
+ <Reference Include="libpxcclr.unity">
+ <HintPath>Assets\Plugins.Managed\libpxcclr.unity.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{AF0C0FA7-8766-106A-C832-4796CA18CF92}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{C616FCC7-74C2-CD5A-2057-4B301B3417F5}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{DCC61B62-2F23-8021-CD45-5547C86D5C00}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{49616C71-495E-7583-DED7-746C20FC6E8C}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
