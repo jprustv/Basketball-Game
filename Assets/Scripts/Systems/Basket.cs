@@ -8,22 +8,32 @@ public class Basket : MonoBehaviour
 
 	private bool displayLabel = false;
 	public Texture2D cestaTexture;
+	public Texture2D quaseTexture;
+	private Texture2D msgTexture;
+	private bool scoreControl = false;
 	
 	void OnCollisionEnter() //if ball hits board
 	{
 		Debug.Log ("Acertou a tabela!");
+		msgTexture = quaseTexture;
+
+		StartCoroutine (FlashLabel ());
 	//	audio.Play(); //plays the hit board sound
 	}
 	
 	void OnTriggerEnter() //if ball hits basket collider
 	{
-		string guiScore = score.guiText.text;
-		int currentScore = int.Parse (guiScore)+1;
-		//int currentScore = int.Parse(score.guiText.ToString()) + 1; //add 1 to the score
-		score.guiText.text = currentScore.ToString ();
-		Debug.Log ("CESTAA!");
+		if (scoreControl == false) {
+			string guiScore = score.GetComponent<GUIText>().text;
+			int currentScore = int.Parse (guiScore) + 1;
+			//int currentScore = int.Parse(score.guiText.ToString()) + 1; //add 1 to the score
+			score.GetComponent<GUIText>().text = currentScore.ToString ();
+			Debug.Log ("CESTAA!");
+			msgTexture = cestaTexture;
 
-		StartCoroutine (FlashLabel ());
+			StartCoroutine (FlashLabel ());
+		//	scoreControl = true;
+		}
 
 
 	//	AudioSource.PlayClipAtPoint(basket, transform.position); //play basket sound
@@ -42,10 +52,14 @@ public class Basket : MonoBehaviour
 	}
 	
 	void OnGUI() {
-		if (displayLabel == true)
-		//	GUILayout.Label("CESTA");
-			GUI.Label (new Rect (130, 100, cestaTexture.width, cestaTexture.height),cestaTexture);
+		if (displayLabel == true) {
+			//GUI.Label (new Rect (120, -1, cestaTexture.width-12, cestaTexture.height-12), cestaTexture);
+			int scWidth = Screen.width;
+			int scHeigth = Screen.height;
+			GUI.Label (new Rect (scWidth/2.6f, scHeigth/7, scWidth/4, scHeigth/4), msgTexture);
 
+
+		}
 		
 	}
 }

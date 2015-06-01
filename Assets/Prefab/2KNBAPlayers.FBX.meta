@@ -155,6 +155,10 @@ ModelImporter:
     100298: Group04
     100300: Group06
     100302: Group08
+    100304: LeftArm7
+    100306: NADA
+    100308: RightArm7
+    100310: RightHand
     400000: //RootNode
     400002: DrawCall_3024
     400004: DrawCall_3025
@@ -307,6 +311,10 @@ ModelImporter:
     400298: Group04
     400300: Group06
     400302: Group08
+    400304: LeftArm7
+    400306: NADA
+    400308: RightArm7
+    400310: RightHand
     2300000: DrawCall_3024
     2300002: DrawCall_3025
     2300004: DrawCall_3026
@@ -453,6 +461,10 @@ ModelImporter:
     2300286: DrawCall_3349
     2300288: DrawCall_3350
     2300290: DrawCall_3351
+    2300292: LeftArm7
+    2300294: NADA
+    2300296: RightArm7
+    2300298: RightHand
     3300000: DrawCall_3024
     3300002: DrawCall_3025
     3300004: DrawCall_3026
@@ -599,6 +611,10 @@ ModelImporter:
     3300286: DrawCall_3349
     3300288: DrawCall_3350
     3300290: DrawCall_3351
+    3300292: LeftArm7
+    3300294: NADA
+    3300296: RightArm7
+    3300298: RightHand
     4300000: DrawCall_3351
     4300002: DrawCall_3350
     4300004: DrawCall_3349
@@ -745,6 +761,9 @@ ModelImporter:
     4300286: DrawCall_3064
     4300288: DrawCall_3063
     4300290: DrawCall_3067
+    4300292: RightHand
+    4300294: RightArm7
+    4300298: LeftArm7
     9500000: //RootNode
     11100000: //RootNode
   materials:

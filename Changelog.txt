@@ -1,0 +1,6 @@
+- Corrigida a má disposição da HUD em diferentes resoluções/tamanhos de tela.
+- Adicionado sistema de Respawn, em diferentes locais.
+- Novo cenário.
+- Menu inicial adicionado.
+- Músicas de fundo adicionadas.
+- Para fazer um novo arremesso, agora é necessário esperar até que a bola do arremeso anterior desapareça.
