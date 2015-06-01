@@ -1,6 +1,8 @@
 # Basketball Game
 ## Unity3D + PSMove
 
+<img src="http://i.imgur.com/AUke9EP.jpg"></img>
+
 ### Synopsis ####
 This is an in-development Basketball game, where the player will be able to play using the Playstation PSMove Controller.
 
