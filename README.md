@@ -1,17 +1,17 @@
-### Unity3D + OpenCVSharp Game ####
+# Basketball Game
+## Unity3D + PSMove
 
 ### Synopsis ####
-This is an in-development Basketball game, where the player will be able to play by gestures.
+This is an in-development Basketball game, where the player will be able to play using the Playstation PSMove Controller.
 
 ### Installation ###
-You can run this source code by downloading, and opening the main scene on any 4.x + version of the Unity3D engine.
+You can run this source code by downloading, and opening the main scene on any 5.x + version of the Unity3D engine.
 
 ### API Reference ###
-We are using OpenCVSharp, which is a modification of the OpenCV Libraries, intended to run on Unity3D engine.
-Here is the owner's Github: https://github.com/shimat/opencvsharp/releases
+We are using the <a href="https://github.com/thp/psmoveapi">libpsmoveapi API</a> and the <a href="https://github.com/CopenhagenGameCollective/UniMove">UniMove Package</a> for Unity.
 
 ### Contributors ###
-This project was created by me, Jonathan Prust and my friends Gustavo Vitorino and Gustavo Mendes.
+This project was created by me, <a href="https://br.linkedin.com/in/jpvernizzi">Jonathan Prust Vernizzi</a> and my friends Gustavo Vitorino and Gustavo Mendes.
 
 
 
